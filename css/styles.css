@@ -628,7 +628,6 @@ body {
 }
 
 .modal-text-header {
-  border: 1px solid tomato;
   margin-top: 24px;
   margin-bottom: 16px;
   font-family: "Roboto";
@@ -640,6 +639,139 @@ body {
   color: #2e2f42;
 }
 
+.form-input-modal-label {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.form-modal-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  color: transparent;
+  margin-top: 4px;
+  padding-left: 38px;
+  color: #2e2f42;
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-modal-input:focus,
+.text-area:focus {
+  border: 1px solid #4d5ae5;
+}
+.form-modal-list:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.modal-icon {
+  position: absolute;
+  left: 16px;
+  top: 10px;
+}
+
+.input-modal-block {
+  position: relative;
+}
+
+.input-modal-block:focus-within > .modal-color-icon {
+  fill: #4d5ae5;
+}
+
+.text-area {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 100%;
+  height: 120px;
+  color: transparent;
+  padding-left: 16px;
+  color: #2e2f42;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text-area:not(:placeholder-shown) {
+  color: #2e2f42;
+}
+
+.modal-button {
+  width: 169px;
+  height: 56px;
+  background: #4d5ae5;
+  border: inherit;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.chech-box-block {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.form-input-modal-label {
+  display: flex;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.modal-checkbox-link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+
+.check-border {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  margin-right: 8px;
+}
+
+.checkbox-input:checked + .form-input-modal-label span {
+  border: 1px solid #404BBF;
+  background-color: #404BBF;
+  fill: #f4f4fd;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-input:focus + .form-input-modal-label span {
+  border-color: #404BBF;
+}
 /* PORTFOLIO PAGE */
 
 /* PORTFOLIO BUTTONS */
