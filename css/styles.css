@@ -526,8 +526,8 @@ body {
   margin-left: 16px;
   cursor: pointer;
 }
-.footer-plain-text {
-  margin-bottom: 16px;
+.form-footer-margin {
+  margin-top: 16px;
 }
 .footer-telegram {
   margin-left: 16px;
@@ -535,7 +535,6 @@ body {
 
 .form-block-field {
   position: relative;
-  margin-top: 16px;
 }
 
 .form-input {
@@ -549,6 +548,7 @@ body {
   color: #ffffff;
   font-family: "Roboto";
   cursor: pointer;
+  outline: none;
 }
 
 .form-input:focus + .form-input-label {
